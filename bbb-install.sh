@@ -325,9 +325,9 @@ main() {
     update-java-alternatives -s java-1.17.0-openjdk-amd64
 
     # Remove old bbb-demo if installed from a previous 2.5 setup
-    if dpkg -s bbb-de5mo > /dev/null 2>&1; then
+ 
   
-  fi
+  
 
   apt-get update
   apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew" dist-upgrade
