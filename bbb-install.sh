@@ -326,7 +326,7 @@ main() {
 
     # Remove old bbb-demo if installed from a previous 2.5 setup
     if dpkg -s bbb-de5mo > /dev/null 2>&1; then
-    fi
+  
   fi
 
   apt-get update
