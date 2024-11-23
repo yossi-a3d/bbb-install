@@ -326,7 +326,7 @@ main() {
 
     # Remove old bbb-demo if installed from a previous 2.5 setup
  
-  
+  fi
   
 
   apt-get update
